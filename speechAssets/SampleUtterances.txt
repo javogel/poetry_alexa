@@ -1,0 +1,4 @@
+QueryPoemIntent give me a poem about {topic}
+RandomPoemIntent give me a random poem
+RandomPoemIntent give me random poem
+RandomPoemIntent give random

@@ -1,0 +1,51 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+    , {
+      "intent": "AMAZON.HelpIntent"
+    }
+    , {
+      "intent": "AMAZON.NextIntent"
+    }
+    , {
+      "intent": "AMAZON.NoIntent"
+    }
+    , {
+      "intent": "AMAZON.PauseIntent"
+    }
+    , {
+      "intent": "AMAZON.PreviousIntent"
+    }
+    , {
+      "intent": "AMAZON.RepeatIntent"
+    }
+    , {
+      "intent": "ResumeIntent"
+    }
+    , {
+      "intent": "AMAZON.StartOverIntent"
+    }
+    , {
+      "intent": "AMAZON.StopIntent"
+    }
+    , {
+      "intent": "AMAZON.YesIntent"
+    }, {
+      "intent": "LaunchIntent"
+    }, {
+      "intent": "RandomPoemIntent"
+    }, {
+      "intent": "QueryPoemIntent",
+      "slots": [
+        { "type": "listoftopics",
+          "name": "topic"
+        },
+        { "type": "listoftopics",
+          "name": "topic_two"
+        }
+      ]
+    }
+  ]
+}
