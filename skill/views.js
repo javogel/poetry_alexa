@@ -4,16 +4,19 @@ const views = (function views() {
   return {
     Intent: {
       Launch: {
-        ask: 'Welcome to Poetry Now! Would me to recite a random poem or a poem about a particular topic?',
+        ask: 'Welcome to Poetry Now! Would you like me to recite a random poem or a poem about a specific topic?',
       },
       ReadPoem: {
-        ask: '{poem}'
+        say: '{poem}'
       },
       Help: {
-        say: 'Some help text here.',
+        say: 'You can say things like read me a random poem if you are feeling lucky, or if you are feeling more romantic then you can say things like read me a poem about love. Enjoy dear, Poet!',
       },
-      waitForPrompt: {
+      WaitForPrompt: {
         ask: 'Would you like a random poem or a poem about a particular topic?'
+      },
+      Welcome: {
+        say: 'Welcome to Poetry Now!'
       }
     },
   };
