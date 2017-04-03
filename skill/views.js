@@ -10,10 +10,10 @@ const views = (function views() {
         say: '{poem}'
       },
       Help: {
-        say: 'You can say things like read me a random poem if you are feeling lucky, or if you are feeling more romantic then you can say things like read me a poem about love. Enjoy dear, Poet!',
+        ask: 'You can say things like read me a random poem, or you can ask me for a poem about any topic, like love. Enjoy dear Poet!',
       },
       WaitForPrompt: {
-        ask: 'Would you like a random poem or a poem about a particular topic?'
+        ask: 'Would you like a random poem or a poem about a topic?'
       },
       Welcome: {
         say: 'Welcome to Poetry Now!'

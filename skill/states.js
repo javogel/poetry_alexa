@@ -13,7 +13,7 @@ exports.register = function register(skill) {
     return ({ reply: 'Intent.ReadPoem', to: 'waiting' })
   });
 
-  skill.onIntent('AMAZON.HelpIntent', () => ({ reply: 'Intent.Help', to: 'die' }));
+  skill.onIntent('AMAZON.HelpIntent', () => ({ reply: 'Intent.Help', to: 'entry' }));
 
   skill.onState('waiting', (alexaEvent) => {
     return { reply: 'Intent.WaitForPrompt', to: 'entry' };

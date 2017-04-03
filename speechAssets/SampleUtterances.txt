@@ -1,5 +1,6 @@
 QueryPoemIntent give me a poem about {topic}
 QueryPoemIntent poem about {topic}
+QueryPoemIntent {topic}
 QueryPoemIntent read a poem about {topic}
 QueryPoemIntent recite a poem about {topic}
 QueryPoemIntent recite a poem on {topic}
