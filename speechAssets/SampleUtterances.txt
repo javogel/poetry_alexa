@@ -1,14 +1,13 @@
-QueryPoemIntent give me a poem about {topic}
-QueryPoemIntent poem about {topic}
-QueryPoemIntent {topic}
-QueryPoemIntent read a poem about {topic}
-QueryPoemIntent recite a poem about {topic}
-QueryPoemIntent recite a poem on {topic}
 RandomPoemIntent give me a random poem
 RandomPoemIntent give me random poem
 RandomPoemIntent recite random poem
 RandomPoemIntent recite a random poem
 RandomPoemIntent give random
+RandomPoemIntent give me random
 RandomPoemIntent random poem
-RandomPoemIntent random
 RandomPoemIntent read a poem
+QueryPoemIntent give me a poem about {topic}
+QueryPoemIntent poem about {topic}
+QueryPoemIntent read a poem about {topic}
+QueryPoemIntent recite a poem about {topic}
+QueryPoemIntent recite a poem on {topic}
